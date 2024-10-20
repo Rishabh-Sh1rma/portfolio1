@@ -3,7 +3,7 @@ import "./intro.css";
 import { FaAward } from "react-icons/fa";
 import React from "react";
 import { VscFolderLibrary } from "react-icons/vsc";
-import img from '../../assets/Me.png'
+import img from '../../assets/imgg.jpg'
 
 // import ME from '../../assets/Rasif Tagizade image.jpg';
 
@@ -23,8 +23,8 @@ const Intro = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>1.5 year</small>
+              <h5>Esucation</h5>
+              <small>JK Lakshmipat University</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
@@ -33,12 +33,9 @@ const Intro = () => {
             </article>
           </div>
           <p>
-            1+ years experienced Front End Developer with hands-on experience in
-            identifying web-based user interactions along with designing and
+            1+ years of hands-on experience as  Front End Developer with user interactions along with designing and
             implementing highly-responsive user interface components by
-            deploying React concepts. Proficient in translating designs and
-            wireframes into high-quality code, and writing application interface
-            code via JavaScript and React JS workflows. Adept at monitoring and
+            deploying React concepts. Adept at monitoring and
             maintaining frontend performance and troubleshooting and debugging
             the same to bolster overall performance.
           </p>

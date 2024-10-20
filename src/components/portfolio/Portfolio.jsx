@@ -1,11 +1,11 @@
 import "./portfolio.css";
 
-import IMG1 from "../../assets/Educational Website.jpg";
-import IMG2 from "../../assets/reservation-form.png";
-import IMG3 from "../../assets/Startup Agency Project.jpg";
-import IMG4 from "../../assets/fh-huquq.png";
-import IMG5 from "../../assets/Jokes Project.jpg";
-import IMG6 from "../../assets/Project4.jpg";
+import IMG1 from "../../assets/img1.jpeg";
+import IMG2 from "../../assets/img2.jpeg";
+import IMG3 from "../../assets/img3.jpeg";
+import IMG4 from "../../assets/img4.jpeg";
+import IMG5 from "../../assets/img5.jpeg";
+import IMG6 from "../../assets/img6.jpeg";
 import React from "react";
 
 //Portfolio function
@@ -13,62 +13,56 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: "Educational Website with React.js",
+      title: "SPEND ORGANIZER (Finance App) | MERN Stack",
       img: IMG1,
       description:
-        "An educational website is a huge interactive platform to present various information for people.",
-      technologies: "Html | CSS | Javascript | React Js",
-      link: "https://educational-website-reactjs.netlify.app/",
-      github: "https://github.com/Rasif-Taghizada/Educational-Website-ReactJs",
+        "implemented user authentication and a finance log to track expenses and savings.",
+      technologies: "MERN Stack",
+      link: "https://spend-organizer-final-frontend.onrender.com",
     },
     {
       id: 2,
-      title: "fh-huquq.az",
+      title: "EZTax- Tax Calculator |Java, NetBeans, MySQL",
       img: IMG4,
       description:
-        "A personal website assembled for a lawyer. Firebase is the basis of the website assembled as a full stack",
-      technologies: "HTML | CSS | JavaScript | Express Js | Firebase",
-      link: "https://fh-huquq-com.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/fh-huquq.com",
+        "Built a Java app for tax calculation under 2022 and 2023 regimes",
+      technologies: "Java, NetBeans, MySQL",
+      link: "https://github.com/Rishabh-Sh1rma/network-tracker/",
     },
     {
       id: 3,
-      title: "Hospital reservation form",
+      title: "FRAVIT - Order from Your Favorite Shop",
       img: IMG2,
-      description: "A booking website for doctor's appointments at the hospital. The website is mainly functionally developed with JavaScript",
-      technologies: "HTML | CSS | JavaScript",
-      link: "https://fs-code-task-two.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/FS-Code-Task",
+      description: "Developed a responsive web app connecting users with local shopkeepers.",
+      technologies: "HTML, CSS, JavaScript, MySql",
+      link: "https://fravit.infinityfreeapp.com/",
     },
     {
       id: 4,
-      title: "Startup Landing Page",
+      title: "ZOMBIE FPS GAME",
       img: IMG3,
       description:
-        "A dedicated, standalone web page built for specific campaigns and target audiences.",
-      technologies: "Html | CSS | JavaScript | Next Js",
-      link: "https://alpha-agency-project.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/Alpha-Agency-Project",
+        "Created a survival game featuring 30+ zombies and an immersive environment.",
+      technologies: "Unity3D",
+      link: "hhttps://github.com/Rishabh-Sh1rma/Zombie-survival-Game",
     },
     {
       id: 5,
-      title: "Jokes Project with Typescript",
+      title: "TEAM-SPHERE",
       img: IMG5,
       description:
         "For when you need a fast funny joke, here are some short jokes to get anyone giggling.",
-      technologies: "Html | Styled-components | Typescript",
-      link: "https://jokes-project.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/Joke-App",
+      technologies: "Clerk authentication, Node, MySQL, Prisma",
+      link: "https://chat-application-903o.onrender.com/",
     },
     {
       id: 6,
-      title: "Fs Poster Website",
+      title: "PARAGLIDING SIMULATION",
       img: IMG6,
       description:
-        "Real-world group project which is still in progress and will provide educational platform for future young developers",
-      technologies: "Html | Scss | Javascript",
-      link: "https://fs-poster-project.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/Fs-Poster-Project",
+        "Engineered a high-fidelity virtual reality paragliding simulation experience.",
+      technologies: "Unreal Engine",
+      link: "https://www.linkedin.com/posts/priyankamanwani_hello-connections-paragliding-activity-7057075441626419200-6fFc/?utm_source=share",
     },
   ];
 
@@ -89,14 +83,6 @@ const Portfolio = () => {
               <p>{pro.technologies}</p>
             </div>
             <div className="portfolio__item-cta">
-              <a
-                href={pro.github}
-                target="_blank"
-                className="btn"
-                rel="noreferrer"
-              >
-                GitHub
-              </a>
               <a
                 href={pro.link}
                 target="_blank"
