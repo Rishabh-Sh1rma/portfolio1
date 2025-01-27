@@ -35,7 +35,7 @@ const Portfolio = () => {
       img: IMG3,
       description: "Developed a responsive web app connecting users with local shopkeepers.",
       technologies: "HTML, CSS, JavaScript, MySql",
-      link: "https://fravit.infinityfreeapp.com/",
+      link: "http://fravit.infinityfreeapp.com/?i=1",
     },
     {
       id: 4,
