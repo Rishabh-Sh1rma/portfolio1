@@ -23,7 +23,7 @@ const Portfolio = () => {
     {
       id: 2,
       title: "EZTax- Tax Calculator |Java, NetBeans, MySQL",
-      img: IMG4,
+      img: IMG2,
       description:
         "Built a Java app for tax calculation under 2022 and 2023 regimes",
       technologies: "Java, NetBeans, MySQL",
