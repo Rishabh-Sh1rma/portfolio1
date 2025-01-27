@@ -32,7 +32,7 @@ const Portfolio = () => {
     {
       id: 3,
       title: "FRAVIT - Order from Your Favorite Shop",
-      img: IMG2,
+      img: IMG3,
       description: "Developed a responsive web app connecting users with local shopkeepers.",
       technologies: "HTML, CSS, JavaScript, MySql",
       link: "https://fravit.infinityfreeapp.com/",
@@ -40,7 +40,7 @@ const Portfolio = () => {
     {
       id: 4,
       title: "ZOMBIE FPS GAME",
-      img: IMG3,
+      img: IMG4,
       description:
         "Created a survival game featuring 30+ zombies and an immersive environment.",
       technologies: "Unity3D",
