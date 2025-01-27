@@ -27,7 +27,7 @@ const Portfolio = () => {
       description:
         "Built a Java app for tax calculation under 2022 and 2023 regimes",
       technologies: "Java, NetBeans, MySQL",
-      link: "https://github.com/Rishabh-Sh1rma/network-tracker/",
+      link: "https://github.com/Rishabh-Sh1rma/Tax-management-System---java-Netbeans",
     },
     {
       id: 3,
@@ -35,7 +35,7 @@ const Portfolio = () => {
       img: IMG3,
       description: "Developed a responsive web app connecting users with local shopkeepers.",
       technologies: "HTML, CSS, JavaScript, MySql",
-      link: "http://fravit.infinityfreeapp.com/?i=1",
+      link: "fravit.infinityfreeapp.com/?i=1",
     },
     {
       id: 4,
